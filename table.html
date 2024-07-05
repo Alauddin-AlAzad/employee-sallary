@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table form</title>
+    <style>
+        label{
+            display: block;
+            margin-top: 10px;
+        }
+        table{
+            border-collapse: collapse;
+                }
+        td,th{
+            border: 1px solid black;
+            padding: 10px 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Please signup for login</h2>
+    <form>
+        <label for="name">your Name
+            <input type="name" placeholder="your name" id="name">
+        </label>
+        <label for="Email">your Email
+            <input type="email" placeholder="Your email" id="email">
+        </label>
+        <label for="phone">your phone
+            <input type="phone" name="" id="phone" placeholder="your number">
+        </label>
+        <fieldset>
+            <legend>Pic on pitha</legend>
+            <label for="chitoi" id="ch">
+                <input type="radio" name="pic" id="chitoi">Chitoy
+            </label>
+            <label for="vapa">
+                <input type="radio" name="pic" id="vapa">Vapa
+            </label>
+            <label for="lacci">
+                <input type="radio" name="pic" id="lacchi">Lacci
+              
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Pic one or more</legend>
+            <label for="vorta">
+                <input type="checkbox" name="vorta" id="vorta">Vorta
+            </label>
+            <label for="shutki">
+                <input type="checkbox" name="shutki" id="shutki">Shutki
+            </label>
+            <label for="chili">
+                <input type="checkbox" name="chili" id="chili">Chili
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Instruction</legend>
+            <textarea name="" id="">
+
+            </textarea>
+          
+        </fieldset>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+    </form>
+    <br>
+    <br>
+    <table>
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Sallery</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Bill gates</td>
+                <td>microsoft</td>
+                <td>$1000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>stiv jobs</td>
+                <td>google</td>
+                <td>$1120</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>azad</td>
+                <td>azad vhai</td>
+                <td>$10000</td>
+            </tr>
+            <tr>
+                <td>4</td>
+               <td>mark juck</td>
+                <td>Facebook</td>
+                <td>$3000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">total Employ:4</td>
+            </tr>
+        </tfoot>
+        <caption>Employ sallary</caption>
+       
+    </table>
+
+</body>
+</html>
